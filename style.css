@@ -1,0 +1,272 @@
+/* --firstbox-- */
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    justify-content:space-evenly
+    
+}
+
+.logo{
+    height:40px;
+    width:106px;
+    background-image:url("logo.png");
+    background-size:cover;
+    border:1.5px solid transparent;
+    align-items:center;
+    margin-top:12px;
+
+}
+.logo:hover{
+    border:1.5px solid white;
+}
+
+.address{
+    height:40px;
+    width:100px;
+    order:1.5px solid transparent;
+    align-items:center;
+    margin-top:12px;
+    font-size:14px;
+    
+    
+}
+.address:hover{
+    border:1.5px solid white;
+}
+.firstaddress{
+    margin-left:18px;
+}
+.secondaddress{
+    display:flex;
+    align-items:center;
+}
+.navsearch{
+    display:flex;
+    justify-content: space-evenly;
+    height:30px;
+    width:500px;
+    margin-top:15px;
+    border:none;
+}
+.navsearch:hover{
+    border:2px solid orange;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-select{
+    background-color: rgb(235, 234, 234);
+    border:none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color:#0f1111;
+    font-size:11px;
+}
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+
+.searchicon{
+    width:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.2rem;
+    background-color:#febd68;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    
+}
+.signin{
+    height:35px;
+    margin-top:12px;
+    font-size:0.9rem;
+}
+.signin:hover{
+    border:2px solid white;
+}
+.order{
+    height:35px;
+    margin-top:12px;
+    font-size:0.9rem;
+}
+.order:hover{
+    border:2px solid white;
+}
+
+.cart{
+    height:35px;
+    margin-top:12px;
+    font-size:0.9rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;  
+}
+.carticon{
+    font-size:1.3rem;
+}
+
+.cart:hover{
+    border:2px solid white;
+}
+
+/* --second box-- */
+.pannel-all{
+    height:40px;
+    background-color:#222f3d;
+    display:flex;
+    justify-content: space-evenly;
+    color:white;
+    align-items:center;
+    font-size:0.8rem;
+
+}
+.pannelone:hover{
+    border:1.5px solid white;
+}
+.panneltwo p:hover{
+    border:1.5px solid white;
+}
+.pannelthree:hover{
+    border:1.5px solid white;
+}
+
+.panneltwo{
+    display:flex;
+    font-size:0.9rem;
+    width:80%;
+
+}
+
+
+/* --Herosection */
+.herosection{
+    height:290px;
+    background-image:url("a.png.jpg");
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items:flex end;
+
+}
+.message{
+    height:30px;
+    background-color:white;
+    color:black;
+    font-size:0.8rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:92%;
+    margin-top:250px;
+    
+}
+.message a{
+    color:#007185;
+}
+
+/* --shopsection */
+.shopsection{
+    height:650px;
+    background-color:#c4e0c9;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    margin-top:17px;
+    width:21%;
+    height:250px;
+    /* border:2px solid black; */
+    background-color: white;
+    padding:20px 0px 15px;
+    
+}
+.box-image{
+    height:200px;
+    background-image: url("A.webp");
+    margin-left:18px;
+    margin-right:18px;
+    background-size:contain ;
+    
+}
+.box p{
+    font-size:1rem;
+    text-align:center;
+    margin-top:10px;
+    color:#007185;
+}
+
+/* --footer-- */
+.downpannel{
+    height:350px;
+    background-color: #232f3e;
+    color:#dddddd;
+    display:flex;
+    justify-content: space-evenly;
+    
+    
+}
+ul a{
+    display:block;
+    font-size:14px;
+    margin-top:8px;
+    font-style: arial;
+    
+} 
+ul a:hover{
+    text-decoration:underline;
+}
+
+.pannel2{
+    border:thin solid #DDDD;
+    height:120px;
+    background-color: #232f3e;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    
+
+}
+.pannelending{
+    display:flex;
+    height:35px;
+    width:30%;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-right:100px;
+
+
+    
+    
+}
+select{
+    background-color:#232f3e;
+    border:none;
+    color:white;
+    font-size:14px;
+    text-align:center;
+    padding-top:0.1px;
+
+}
+.ending{
+    height:25px;
+    width:140px;
+    border:thin solid #cccccc;
+    color:white;
+    font-size:14px;
+    text-align:center;
+    padding-top:8px;
+}
+
